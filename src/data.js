@@ -143,15 +143,19 @@ export const typeOfPlaces = [
 ]
 export const certificates = [
     {
+        id:1,
         image: 'https://mos-electrical-installation-works.oml.ru/thumb/2/HB6T0Y8z6japJU07P13yYw/600r/d/fgs16_certificate_1rus.webp'
     },
     {
+        id:2,
         image: 'https://mos-electrical-installation-works.oml.ru/thumb/2/HB6T0Y8z6japJU07P13yYw/600r/d/fgs16_certificate_1rus.webp'
     },
     {
+        id:3,
         image: 'https://mos-electrical-installation-works.oml.ru/thumb/2/HB6T0Y8z6japJU07P13yYw/600r/d/fgs16_certificate_1rus.webp'
     },
     {
+        id:4,
         image: 'https://mos-electrical-installation-works.oml.ru/thumb/2/HB6T0Y8z6japJU07P13yYw/600r/d/fgs16_certificate_1rus.webp'
     },
 ]
