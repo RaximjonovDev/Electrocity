@@ -2,7 +2,16 @@ import React from 'react'
 import { styles } from '../style'
 import { certificates } from '../data'
 
+import 'photoswipe/dist/photoswipe.css'
+import { Gallery, Item } from 'react-photoswipe-gallery'
+
 const Certificates = () => {
+  const options = {
+    bgOpacity: 1,
+    zoom: true,
+    close: true,
+    counter: true,
+  }
   return (
     <section className='py-6'>
       <div className={`${styles.container}`}>
@@ -14,13 +23,13 @@ const Certificates = () => {
           return(
             <li className='rounded-lg cursor-zoom-in'>
              <Item
-                id="first-pic"
+                id={certificate.id}
                 original={certificate.image}
                 thumbnail={certificate.image}
                 width="430"
                 height="606"
                 caption='Sertifikat 1'
-                alt='birinchi sertifikat'
+                alt='sertifikat'
               >
                 {({ ref, open }) => (
                   <img ref={ref} onClick={open} src={certificate.image} />
